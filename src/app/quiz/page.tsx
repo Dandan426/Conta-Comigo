@@ -55,8 +55,8 @@ export default function QuizScreen() {
 
             </View>
 
-            <TouchableOpacity>
-                <Text>Próxima pergunta</Text>
+            <TouchableOpacity style={styles.nextButton}>
+                <Text style={styles.nextButtonColor}>Próxima pergunta</Text>
             </TouchableOpacity>
         </View>
         
@@ -145,14 +145,14 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         color: "#6750a4" // Cor Roxa
    },
-   nextButtom: {
+   nextButton: {
         backgroundColor: "#8e6fe1",
         borderRadius: 8,
         paddingVertical: 15,
         marginTop: 20,
         alignItems: "center"
    },
-   nextButtomColor: {
+   nextButtonColor: {
         color: "#fff",
         fontWeight: "bold"
    }
